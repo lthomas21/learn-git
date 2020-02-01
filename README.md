@@ -36,7 +36,17 @@ Navigate to a place on your computer to store the repository, and run the comman
 
 ## Creating a Pull Request
 
-Create a Pull Request by visiting GitHub and pick your new branch to merge into `master`.
+- Create a Pull Request by visiting GitHub and pick your new branch to merge into `master`.
+
+<img src='src/pull-request.jpg'></img>
+
+- Review your changes, and merge them into `master`.
+
+- Your new branch can now be deleted. 
+
+- Go back to command line, and check out the master branch using `git checkout master`.
+
+- Finish by pulling the new changes from the remote repository into your local `master` branch. `git pull origin master`.
 
 # Helpful Tips
 
