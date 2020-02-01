@@ -3,8 +3,10 @@
 - Start by forking this repository on GitHub using the `Fork` button and selecting your account.
 <img src='src/fork.jpg'></img>
 - Go to your newly created repository (should be visitable via `https://www.github.com/your-username-here/learn-git`) and `Clone` the repository by copying the link (https://github.com/1997/learn-git.git) or copying to clipboard.
+<br>
 <img src='src/clone.jpg'></img>
 Navigate to a place on your computer to store the repository, and run the command `git clone https://github.com/1997/learn-git.git`.
+<br>
 - Fetch all remote branches by running `git fetch`.
 # Exercises
 ## Creating a Branch
