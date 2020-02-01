@@ -14,8 +14,26 @@ Navigate to a place on your computer to store the repository, and run the comman
 
 - Fetch all remote branches by running `git fetch`.
 
+- Set up your email and account name by using `git config --global user.name "Your Name Here"` and `git config --global user.email email@email.com`.
+
 # Exercises
 
-## Creating a Branch
+## Creating a new Branch
 
-Create a new branch using the `git checkout -b <branchname>`.
+- Create a new branch and navigate to it using the `git checkout -b <branchname>` command.
+
+## Committing and Pushing Changes
+
+- Open `main.py`, and change `Hello World` in the `print_string()` function to `Git Changes`. Save your change.
+
+- On command line, run `git status` to check your current status. `main.py` should be modified.
+
+- <b>Commit</b> these changes by adding the files you want to commit: 
+`git add <filename>` or `git add .` for all files. Commit these files using the `git commit -m"Commit Message Here"` command.
+
+- <b>Push</b> these changes to your own remote repository.
+`git push origin <your new branch name>`
+
+## Creating a Pull Request
+
+Create a Pull Request by visiting GitHub and pick your new branch to merge into `master`.
