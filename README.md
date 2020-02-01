@@ -37,3 +37,11 @@ Navigate to a place on your computer to store the repository, and run the comman
 ## Creating a Pull Request
 
 Create a Pull Request by visiting GitHub and pick your new branch to merge into `master`.
+
+# Helpful Tips
+
+- Name your branches accordingly. If you are fixing a specific issue, label it `<specific issue>-bug`. Alternatively, if you use <b>Trello</b>, <b>Jira</b> or <b>GitHub Actions</b>, you can name the branches card numbers or reference numbers.
+
+- Create <b>GitHub Issues</b> and a project board to keep organised with tasks and your agile sprints.
+
+- Every time you begin work on your project, run `git pull origin <branchname>` to pull from the higher remote node, making sure that changes that were added to the higher node by other people are synchronised into your work, avoiding merge conflicts.
