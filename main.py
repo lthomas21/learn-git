@@ -1,8 +1,9 @@
-class Test():
-    def print_string(self) -> str:
+class Test:
+    def __str__(self) -> str:
         return 'Hello World'
+
 
 if __name__ == '__main__':
     test = Test()
-    print(test.print_string())
+    print(test)
 
