@@ -1,6 +1,6 @@
 class Test:
     def __str__(self) -> str:
-        return 'Hello World'
+        return 'Git Changes'
 
 
 if __name__ == '__main__':
